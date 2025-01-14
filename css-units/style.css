@@ -1,0 +1,15 @@
+section{
+    width:500px;
+    background-color: aqua;
+}
+div{
+    /* width: 100%;  % dependant on immideate parent (section)  by default it will have body ka width */
+
+    width:50%;
+    background-color: orange;
+    border : 1px dashed red;
+}
+
+ul>li{
+    font-size: 2em;
+}

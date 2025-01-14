@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    height: 100vh;
+    border: 10px solid red;
+    width: 100px;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;  */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* flex-wrap: nowrap;  default value it will shrink the element */
+    flex-wrap: wrap; /* it will shift elements down */
+    align-content: flex-start;
+} 
+
+
+div,article{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    /* child property */
+    /* display: inline-block; */
+}
+
+#second{
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: center;
+}
+
+#fourth{
+    flex-grow: 2;  /* no default value */
+    flex-shrink: 2;
+    align-self: flex-end;
+}

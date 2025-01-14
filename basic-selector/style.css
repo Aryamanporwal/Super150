@@ -1,0 +1,87 @@
+/* h1{
+    color: red;
+}
+
+
+/* id selector */
+/* #aru{
+    font-size: 100px;
+} */
+
+/* class selector   */
+.porwal{
+    background-color: yellow;
+    color: green;
+}
+
+
+/* universal  selector */
+/* *{
+    background-image: url(https://th.bing.com/th/id/OIP.Qre2m5rlYXCci5ee6iRVhAHaEo?rs=1&pid=ImgDetMain);
+    border: 2px solid black;
+} */
+
+
+/* Attribute selector */
+ /*input[type="text"]{
+    background-color: orange;
+}
+
+input[type="Password"]{
+    background-color: maroon;
+}
+
+a[href="https://instagram.com"]{
+    color:orange;
+    font-size: 20px;
+}
+
+a[href="https://google.com"]{
+    color:chocolate;
+    font-size: 25px;
+} */
+
+/* Advanced Selector */
+/* child selecetor  */
+ 
+/* div > p > space{
+     ancestor > sign for bada element
+} */  
+
+
+/* h1+ul  +=adjacent sibling */
+/* h1 ~ ul{
+    ~ = adjacent sibling
+} */
+
+div{
+    background-color: red;
+    color:black
+}
+
+div:hover{
+    background-color: green;
+}
+
+input{
+    background-color: blue;
+}
+
+input:focus{
+    background-color: red;
+    font-size: 100px;
+}
+
+a{
+    font-size: 100px;
+}
+
+
+/* click krke rakhe rahna is active  */
+a:active{
+    color: chocolate;
+}
+
+a:visited{
+    color:aqua;
+}
